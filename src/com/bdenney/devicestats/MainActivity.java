@@ -23,6 +23,9 @@ public class MainActivity extends Activity {
 
 	private String getStats() {
 		final StringBuilder sb = new StringBuilder();
+		sb.append("Manufacturer: " + Build.MANUFACTURER);
+		sb.append("\n");
+		
 		sb.append("Model: " + Build.MODEL);
 		sb.append("\n");
 		
