@@ -23,7 +23,10 @@ public class MainActivity extends Activity {
 
 	private String getStats() {
 		final StringBuilder sb = new StringBuilder();
-		sb.append("Model: " + Build.MODEL);
+		sb.append("Manufacturer:    " + Build.MANUFACTURER);
+		sb.append("\n");
+		
+		sb.append("Model:    " + Build.MODEL);
 		sb.append("\n");
 		
 		sb.append("SDK Level:    " + Build.VERSION.SDK_INT);
